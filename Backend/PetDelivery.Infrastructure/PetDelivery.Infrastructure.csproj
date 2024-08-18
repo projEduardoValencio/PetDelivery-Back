@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PetDelivery.Domain\PetDelivery.Domain.csproj" />
+      <ProjectReference Include="..\Shared\PetDelivery.Communication\PetDelivery.Communication.csproj" />
+      <ProjectReference Include="..\Shared\PetDelivery.Exception\PetDelivery.Exception.csproj" />
+    </ItemGroup>
+
+</Project>
